@@ -1,16 +1,12 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+from datetime import datetime
+#
+# today = datetime.now()
+# print(today)
+# tomorrow = datetime.now().timestamp() + 24 * 3600
+# tomorrow = datetime.fromtimestamp(tomorrow)
+# print(tomorrow > today)
+city = input('Alege destinatia')
+day = int(input('Alege ziua'))
+hour = int(input('Alege ora'))
+date = datetime(2024, 12, day, hour)
+print(date)
