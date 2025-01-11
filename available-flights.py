@@ -3,51 +3,13 @@ from datetime import datetime
     string : [{ data: datetime, pret:number  }]
 '''
 flights ={
-   'Timisoara':{
-       'ziua' : [{'data: 11.01.2025 , pret: 70'}]
-    },
-     'Londra':{
-    },
-    'Seol':{
-
-    },
-    'New York':{
-
-    },
-    'Kiev':{
-
-    },
-    'Praga':{
-
-    },
-    'Roma':{
-
-    },
-    'Monaco':{
-
-    },
-    'Las Vegas':{
-
-    },
-    'Madrid':{
-
-    },
-    'Singapore':{
-
-    },
-    'Tokyo':{
-
-    },
-    'Hoolywood':{
-
-    },
-    'Montreal':{
-
-    },
-    'Munich':{
-
-    }
-
+   'Timisoara':[{'date': datetime(2025, 11, 2, 16) , 'pret' : 200}],
+    'Londra':[{'date': datetime(2025, 9, 18, 20) , 'pret' : 350 }],
+    'Seol':[{'date': datetime( )}]
+    'New York':[{'date': }]
+    'Las Vegas':[{'date': }]
+    'Singapore':[{'date': }]
+    'Tokyo':[{'date': }]
 
 }
 
