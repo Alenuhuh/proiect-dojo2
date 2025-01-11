@@ -1,12 +1,19 @@
 from datetime import datetime
+from flights import flights
 #
 # today = datetime.now()
 # print(today)
 # tomorrow = datetime.now().timestamp() + 24 * 3600
 # tomorrow = datetime.fromtimestamp(tomorrow)
 # print(tomorrow > today)
-city = input('Alege destinatia')
+destination = input('Alege destinatia')
+month = int(input('Alege luna'))
 day = int(input('Alege ziua'))
 hour = int(input('Alege ora'))
-date = datetime(2024, 12, day, hour)
+date = datetime(2025, month, day, hour)
 print(date)
+
+if destination in flights:
+    available_flights = flights[destination]
+    print(available_flights)
+

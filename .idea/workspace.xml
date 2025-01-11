@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9cc9337-779e-41b5-a932-5916e11b95cc" name="Changes" comment="initial commit">
+    <list default="true" id="a9cc9337-779e-41b5-a932-5916e11b95cc" name="Changes" comment="solitare">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/available-flights.py" beforeDir="false" afterPath="$PROJECT_DIR$/available-flights.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/available-flights.py" beforeDir="false" afterPath="$PROJECT_DIR$/flights.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,11 +127,37 @@
       <option name="project" value="LOCAL" />
       <updated>1736595369305</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="datetime">
+      <option name="closed" value="true" />
+      <created>1736599136033</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736599136033</updated>
+    </task>
+    <task id="LOCAL-00005" summary="solitare">
+      <option name="closed" value="true" />
+      <created>1736599572396</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736599572396</updated>
+    </task>
+    <task id="LOCAL-00006" summary="solitare">
+      <option name="closed" value="true" />
+      <created>1736600698623</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736600698623</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="datetime" />
+    <MESSAGE value="solitare" />
+    <option name="LAST_COMMIT_MESSAGE" value="solitare" />
   </component>
 </project>
