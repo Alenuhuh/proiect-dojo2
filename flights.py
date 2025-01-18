@@ -15,7 +15,7 @@ flights ={
               {'date': datetime(2025, 8, 11, 5) , 'pret' : 360 },
               {'date': datetime(2025, 6, 6, 22) , 'pret' : 355 },
               {'date': datetime(2025, 3, 25, 10) , 'pret' : 380 },
-              {'date': datetime(2025, 2, 31, 17) , 'pret' : 350 }],
+              {'date': datetime(2025, 2, 28, 17) , 'pret' : 350 }],
 
     'Seol':[{'date': datetime(2025, 12, 2, 16) , 'pret' : 450},
             {'date': datetime(2025, 10, 14, 11) , 'pret' : 500},
