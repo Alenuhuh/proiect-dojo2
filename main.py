@@ -30,5 +30,8 @@ if destination in flights:
             chosen_flight = flight
             time_min = diff
     print(chosen_flight)
-    flight_date = chosen_flight['date']
-    print(f'Urmatorul zbor este in luna: {flight_date.month}, ziua: {flight_date.day}, la ora: {flight_date.hour}, costa {chosen_flight['pret']}')
+    if chosen_flight is None:
+        print('Nu avem zbor disponibil')
+    else:
+        flight_date = chosen_flight['date']
+        print(f'Urmatorul zbor este in luna: {flight_date.month}, ziua: {flight_date.day}, la ora: {flight_date.hour}, costa {chosen_flight['pret']}')
