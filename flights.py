@@ -11,7 +11,7 @@ flights ={
                 {'date': datetime(2025, 4, 27, 4), 'pret': 250},
                 {'date': datetime(2025, 3, 20, 13) , 'pret' : 280}],
 
-    'Londra':[{'date': datetime(2025, 9, 18, 20) , 'pret' : 350 },
+    'Londra':[{'date': datetime(2025, 8, 18, 20) , 'pret' : 350 },
               {'date': datetime(2025, 8, 11, 5) , 'pret' : 360 },
               {'date': datetime(2025, 6, 6, 22) , 'pret' : 355 },
               {'date': datetime(2025, 3, 25, 10) , 'pret' : 380 },
