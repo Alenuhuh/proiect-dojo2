@@ -25,8 +25,8 @@ if destination in flights:
     time_min = 14*3600*24
     chosen_flight = None
     for flight in available_flights:
-        diff = (flight['date'] - date).total_seconds()
-        if diff < time_min and diff > 0 and budget >= flight['pret']:
+        diff = (flight.date - date).total_seconds()
+        if diff < time_min and diff > 0 and budget >= flight.pret:
             chosen_flight = flight
             time_min = diff
     print(chosen_flight)
