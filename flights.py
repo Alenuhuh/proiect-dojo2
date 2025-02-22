@@ -5,6 +5,8 @@ class Flight:
         self.date = datetime
         self.pret = pret
 
+    def __str__(self):
+        return f'Zbor in data de {self.date} cu pretul de {self.pret}'
 
 
 '''
